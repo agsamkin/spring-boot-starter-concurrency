@@ -1,0 +1,8 @@
+org.springframework.context.ApplicationContextInitializer=\
+    com.example.springbootstarterconcurrency.init.ConcurrencyApplicationContextInitializer
+
+org.springframework.boot.env.EnvironmentPostProcessor=\
+    com.example.springbootstarterconcurrency.init.ConcurrencyEnvironmentPostProcessor
+
+org.springframework.boot.diagnostics.FailureAnalysis=\
+    com.example.springbootstarterconcurrency.analyzer.ConcurrencyFailureAnalyzer
